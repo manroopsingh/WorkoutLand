@@ -120,8 +120,12 @@ public class WorkoutGenerator {
     private static List<ExerciseUnit> getBackUnits(){
         List<ExerciseUnit> exerciseUnits = new ArrayList<>();
 
-        exerciseUnits.add(new ExerciseUnit(new Exercise("Standing/Seated Dumbbell Curls", "Desc", "Url"), 4, 8, "Each Set Each Arm"));
-        exerciseUnits.add(new ExerciseUnit(new Exercise("EZ Or Straight Barbell Curl", "Desc", "Url"), 8, 8, "Each Set"));
+        exerciseUnits.add(new ExerciseUnit(new Exercise("Chin ups", "Desc", "Url"), 4, 8, "Each Set Each Arm"));
+        exerciseUnits.add(new ExerciseUnit(new Exercise("DeadLifts", "Desc", "Url"), 8, 8, "Each Set"));
+        exerciseUnits.add(new ExerciseUnit(new Exercise("Lahts Pull Down", "Desc", "Url"), 4, 10, "Each Set"));
+        exerciseUnits.add(new ExerciseUnit(new Exercise("Seated Rowing Machine", "Desc", "Url"), 4, 10, "Each Set Each Arm"));
+        exerciseUnits.add(new ExerciseUnit(new Exercise("Unilateral Dumbbell", "Desc", "Url"), 4, 10, "Each Set"));
+        exerciseUnits.add(new ExerciseUnit(new Exercise("Hyper Extension", "Desc", "Url"), 8, 10, "Each Set"));
 
         return exerciseUnits;
     }
