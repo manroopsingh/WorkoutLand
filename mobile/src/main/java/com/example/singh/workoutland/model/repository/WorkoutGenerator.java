@@ -1,4 +1,4 @@
-package com.example.singh.workoutland.model.repository.local;
+package com.example.singh.workoutland.model.repository;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
