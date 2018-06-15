@@ -4,6 +4,10 @@ public interface DataSource {
 
     void getWorkout();
 
+    void onLoadingFailed(String error);
+
+
+
 
 
 }
